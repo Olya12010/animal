@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            canvas{
+                border: 1px solid #000000;
+                background-color: #e9e9e9;
+            }
+
+            div{
+                text-align: center;
+                width: 470px;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+    </head>
+    <canvas id="MyCanvas" width="470" height="270"></canvas>
+    <body onload="game()">
+        <div>
+            <button onclick="up()">Вгору</button><br><br>
+            <button onclick="left()">Ліворуч</button>
+            <button onclick="right()">Праворуч</button><br><br>
+            <button onclick="down()">Вниз</button>
+        </div>
+    </body>
+</html>
